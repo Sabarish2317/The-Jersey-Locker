@@ -64,6 +64,40 @@ npm run dev
 npm run dev
 ```
 
+API Endpoints
+
+Auth
+
+POST /auth/signup - Register a new user
+
+POST /auth/login - User login
+
+POST /auth/otp-verify - OTP authentication
+
+Jerseys
+
+GET /jerseys - Fetch all jerseys
+
+GET /jerseys/:id - Fetch a jersey by ID
+
+POST /jerseys - Add a new jersey (Admin only)
+
+PUT /jerseys/:id - Update jersey details (Admin only)
+
+DELETE /jerseys/:id - Remove a jersey (Admin only)
+
+Orders
+
+POST /orders - Create an order
+
+GET /orders/:userId - Get user orders
+
+Admin
+
+GET /admin/orders - View all orders (Admin only)
+
+GET /admin/users - View all users (Admin only)
+
 ### 5️⃣ Deploying
 - **Frontend:** Vercel / Netlify
 - **Backend:** Railway / Render / Supabase Edge Functions
